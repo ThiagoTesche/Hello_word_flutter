@@ -7,5 +7,6 @@
 /home/thiago/www/mobile/hello_world_flutter/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z
 /home/thiago/www/mobile/hello_world_flutter/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
 /home/thiago/www/mobile/hello_world_flutter/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+/home/thiago/www/mobile/hello_world_flutter/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES
 /home/thiago/www/mobile/hello_world_flutter/build/linux/x64/debug/bundle/data/flutter_assets/shaders/ink_sparkle.frag
 /home/thiago/www/mobile/hello_world_flutter/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin

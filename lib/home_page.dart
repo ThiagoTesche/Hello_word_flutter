@@ -11,6 +11,7 @@ class HomePage extends StatefulWidget {
 
 class HomePageState extends State<HomePage> {
   int counter = 0;
+  bool isDarkTheme = false;
 
   @override
   Widget build(BuildContext context) {
@@ -19,18 +20,15 @@ class HomePageState extends State<HomePage> {
         title: Text('Contador'),
       ),
       body: Center(
-          child: GestureDetector(
-        child: Center(
-            child: Text(
-          'Contador: $counter',
-          style: TextStyle(fontSize: 25),
-        )),
-        onTap: () {
-          setState(() {
-            counter++;
-          });
-        },
-      )),
+        child: Switch(
+          value: isDarkTheme,
+          onChanged: (value) {
+            setState(() {
+              isDarkTheme = value;
+            });
+          },
+        ),
+      ),
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.add, size: 50),
         onPressed: () {
@@ -39,6 +37,8 @@ class HomePageState extends State<HomePage> {
           });
         },
       ),
+      backgroundColor: Colors.red,
+      drawer: Drawer(child: ListTile(title: Text('exem'))),
     );
   }
 }

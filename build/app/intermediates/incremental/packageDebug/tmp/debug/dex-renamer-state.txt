@@ -1,0 +1,4 @@
+#Sun Jan 29 17:35:24 BRT 2023
+base.0=/home/thiago/www/mobile/hello_world_flutter/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

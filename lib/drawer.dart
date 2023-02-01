@@ -21,12 +21,13 @@ class SideMenu extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 Column(
-                  textDirection: TextDirection.rtl,
+                  verticalDirection: VerticalDirection.down,
+                  textDirection: TextDirection.ltr,
                   children: <Widget>[
                     CircleAvatar(
                       radius: 30,
                       backgroundColor: Colors.black,
-                      child: Icon(Icons.person, size: 55),
+                      child: Icon(Icons.menu_book, size: 55),
                     ),
                     Text(
                       'userName',

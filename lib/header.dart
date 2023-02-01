@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Header extends StatelessWidget {
-  final String title;
-
-  const Header({super.key, required this.title});
+  final String title = 'Hover';
 
   @override
   Widget build(BuildContext context) {
@@ -14,11 +12,7 @@ class Header extends StatelessWidget {
             color: Colors.green, fontSize: 12, fontStyle: FontStyle.italic),
       ),
       actions: <Widget>[
-        IconButton(
-            onPressed: () {
-              print('Menu aberto');
-            },
-            icon: Icon(Icons.menu))
+        IconButton(onPressed: () {}, icon: Icon(Icons.arrow_back_ios))
       ],
     );
   }

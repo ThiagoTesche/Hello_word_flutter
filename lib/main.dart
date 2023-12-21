@@ -1,11 +1,25 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
 
-import 'app_widget.dart';
-
 void main() {
   // ignore: prefer_const_constructors
-  runApp(AppWidget(
-    title: "Flutterando",
-  ));
+  runApp(PerguntaApp());
+}
+
+class PerguntaApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          backgroundColor: Color.fromARGB(255, 128, 86, 86),
+          title: Text('Pergunta App'),
+        ),
+        body: Center(
+          child: Text('fppp'),
+        ),
+        backgroundColor: Colors.orange,
+      ),
+    );
+  }
 }
